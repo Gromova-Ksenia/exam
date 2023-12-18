@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(9, 10, 66);
+}
+
+.header{
+    padding: 5em;
+    text-align: center;
+    background-color: rgb(9, 10, 66);
+    color:azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    margin-bottom: 0.2em;
+    font-size: 4.5em;
+}
+
+h2{
+    margin-bottom: 0.2em;
+    font-size: 2em;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    padding: 2em;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:azure;
+}
+
+h3{
+    text-align: left;
+    font-size: 1.5em;
+    margin: 3%;
+}
+
+.description{
+    margin: 3%;
+    font-size: 1.1em;
+}
+
+span{
+    font-style: italic;
+}
+
+img{
+    width: 100%;
+    align-self: center;
+}
+
+.subheader h3{
+    margin: 0.8em;
+    text-align: center;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:azure;
+}
+
+.showcase{
+    display: grid;
+    grid-template-columns: 5% 18% 18% 18% 18% 18% 5%; 
+    background-color: rgb(9, 10, 66);
+    margin-bottom: 8%;
+}
+
+.album{
+    text-align: center;
+    width: 100%;
+    padding: 3%;
+    scale: 1;
+    transition: 1s;
+}
+
+.album:hover{
+    scale: 1.05;
+}
+
+.showcasebox{
+    box-shadow: 0px 7px 10px 0px rgba(30, 26, 54, 0.32);
+}
+
+.album div{
+    background-color:azure;
+    border-radius: 21px;
+    min-height: 103%;
+}
+
+.cover img{
+    border-radius: 20px;
+    border-bottom: 4px solid darkslateblue;
+}
+
+.aboutalbum{
+    padding: 2% 7%;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.aboutalbum div{
+    text-align: center;
+    margin: 3% 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.aboutalbum p{
+    margin: 3% 0;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.bottommenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background-color:cornflowerblue;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.bottommenu div a{
+    display: block;
+    padding: 0.6em 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
